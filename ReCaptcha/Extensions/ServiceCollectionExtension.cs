@@ -11,7 +11,7 @@ namespace ReCaptcha.Extensions
         {
             if (options is null)
             {
-                throw new ArgumentNullException($"Recaptcha options (SiteKey - SecretKey) not specified.")
+                throw new ArgumentNullException($"Recaptcha options (SiteKey - SecretKey) not specified.");
             }
 
             //RecaptchaOptions config
@@ -19,6 +19,7 @@ namespace ReCaptcha.Extensions
             
             services.AddTransient<IRecaptchaVerifier, RecaptchaVerifier>();
             
+            //TODO: create RecaptchaClientConsts?
             //IHttpClientFactory service registration
             services.AddHttpClient("recaptcha", client =>
             {

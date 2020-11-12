@@ -26,6 +26,9 @@
         <e p="ReCaptcha.csproj" t="IncludeRecursive" />
         <e p="RecaptchaResponse.cs" t="Include" />
         <e p="RecaptchaVerifier.cs" t="Include" />
+        <e p="TagHelpers" t="Include">
+          <e p="RecaptchaTagHelper.cs" t="Include" />
+        </e>
       </e>
       <e p="ReCaptchaV3.sln" t="IncludeFlat" />
     </e>

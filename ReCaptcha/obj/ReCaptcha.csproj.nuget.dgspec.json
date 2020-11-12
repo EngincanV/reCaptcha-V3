@@ -46,6 +46,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[5.0.0, )"

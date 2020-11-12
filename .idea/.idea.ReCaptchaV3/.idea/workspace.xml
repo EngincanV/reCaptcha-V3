@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc3f540c-d39a-4f20-a6c9-6dd2ae1e4810" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ReCaptcha/TagHelpers/RecaptchaTagHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReCaptchaV3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReCaptchaV3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReCaptchaV3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReCaptchaV3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReCaptcha/Extensions/ServiceCollectionExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/Extensions/ServiceCollectionExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReCaptcha/IRecaptchaVerifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/IRecaptchaVerifier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReCaptcha/RecaptchaVerifier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/RecaptchaVerifier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/ReCaptcha.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/ReCaptcha.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/RecaptchaResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/RecaptchaResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/obj/Debug/netcoreapp3.1/ReCaptcha.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/obj/Debug/netcoreapp3.1/ReCaptcha.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/obj/Debug/netcoreapp3.1/ReCaptcha.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/obj/Debug/netcoreapp3.1/ReCaptcha.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/obj/ReCaptcha.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/obj/ReCaptcha.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReCaptcha/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ReCaptcha/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +28,11 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/ReCaptcha/Class1.cs" />
       <option value="$PROJECT_DIR$/ReCaptcha/Options/RecaptchaOptions.cs" />
-      <option value="$PROJECT_DIR$/ReCaptcha/RecaptchaResponse.cs" />
       <option value="$PROJECT_DIR$/ReCaptcha/IRecaptchaVerifier.cs" />
       <option value="$PROJECT_DIR$/ReCaptcha/RecaptchaVerifier.cs" />
+      <option value="$PROJECT_DIR$/ReCaptcha/TagHelpers/RecaptchaTagHelper.cs" />
       <option value="$PROJECT_DIR$/ReCaptcha/Extensions/ServiceCollectionExtension.cs" />
+      <option value="$PROJECT_DIR$/ReCaptcha/RecaptchaResponse.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kCSDUuXWc3WK6cmDuaTdPRui0I" />
@@ -52,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605202962715</updated>
-      <workItem from="1605202970875" duration="2897000" />
+      <workItem from="1605202970875" duration="4778000" />
     </task>
     <servers />
   </component>
