@@ -20,20 +20,18 @@ namespace ReCaptcha
             _options = options.Value;
         }
 
-        public async Task<RecaptchaResponse> VerifyAsync(string response, string? remoteIp = null)
+        public async Task<RecaptchaResponse> VerifyAsync(string response)
         {
             var postBody = new FormUrlEncodedContent(new[]
             {
                 new KeyValuePair<string, string>("secret", _options.SecretKey),
                 new KeyValuePair<string, string>("response", response),
-                new KeyValuePair<string, string>("remoteip", remoteIp)
             });
 
             var client = _httpClientFactory.CreateClient("recaptcha");
             var postResponse = await client.PostAsync(recaptchaVerifyUrl, postBody);
 
-            var recaptchaResponse =
-                JsonSerializer.Deserialize<RecaptchaResponse>(await postResponse.Content.ReadAsStringAsync());
+            var recaptchaResponse = JsonSerializer.Deserialize<RecaptchaResponse>(await postResponse.Content.ReadAsStringAsync());
 
             return recaptchaResponse;
         }

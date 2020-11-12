@@ -4,6 +4,6 @@ namespace ReCaptcha
 {
     public interface IRecaptchaVerifier
     {
-        Task<RecaptchaResponse> VerifyAsync(string response, string? remoteIp = null);
+        Task<RecaptchaResponse> VerifyAsync(string response);
     }
 }

@@ -14,7 +14,8 @@ namespace ReCaptcha.Extensions
                 throw new ArgumentNullException($"Recaptcha options (SiteKey - SecretKey) not specified.")
             }
 
-            services.Configure<RecaptchaOptions>(options);
+            //RecaptchaOptions config
+            services.Configure(options);
             
             services.AddTransient<IRecaptchaVerifier, RecaptchaVerifier>();
             
