@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\Recaptcha-DemoMVC\\Recaptcha-DemoMVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\Recaptcha-DemoMVC\\Recaptcha-DemoMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\Recaptcha-DemoMVC\\Recaptcha-DemoMVC.csproj",
+        "projectName": "Recaptcha-DemoMVC",
+        "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\Recaptcha-DemoMVC\\Recaptcha-DemoMVC.csproj",
+        "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\Recaptcha-DemoMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/6aVf6OVduM1HCQTZMFdvAPYmjj7UQhBjVbqgxfB3q9I6kRPLrL/api": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\ReCaptcha\\ReCaptcha.csproj": {
+                "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\ReCaptcha\\ReCaptcha.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\ReCaptcha\\ReCaptcha.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\ReCaptcha\\ReCaptcha.csproj",
+        "projectName": "ReCaptcha",
+        "projectPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\ReCaptcha\\ReCaptcha.csproj",
+        "packagesPath": "C:\\Users\\engin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\engin\\OneDrive\\Masaüstü\\reCaptcha V3\\ReCaptchaV3\\ReCaptcha\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\engin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/6aVf6OVduM1HCQTZMFdvAPYmjj7UQhBjVbqgxfB3q9I6kRPLrL/api": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

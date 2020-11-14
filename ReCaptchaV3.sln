@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCaptcha", "ReCaptcha\ReCaptcha.csproj", "{C135AEDA-A3F7-4F4C-83D1-F2EB92982581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recaptcha-DemoMVC", "Recaptcha-DemoMVC\Recaptcha-DemoMVC.csproj", "{AB071121-3C55-4F6F-8C4E-71680458C325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,9 @@ Global
 		{C135AEDA-A3F7-4F4C-83D1-F2EB92982581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C135AEDA-A3F7-4F4C-83D1-F2EB92982581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C135AEDA-A3F7-4F4C-83D1-F2EB92982581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB071121-3C55-4F6F-8C4E-71680458C325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB071121-3C55-4F6F-8C4E-71680458C325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB071121-3C55-4F6F-8C4E-71680458C325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB071121-3C55-4F6F-8C4E-71680458C325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

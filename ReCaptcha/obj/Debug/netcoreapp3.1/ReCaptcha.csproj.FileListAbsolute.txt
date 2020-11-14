@@ -1,0 +1,9 @@
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\bin\Debug\netcoreapp3.1\ReCaptcha.deps.json
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\bin\Debug\netcoreapp3.1\ReCaptcha.dll
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\bin\Debug\netcoreapp3.1\ReCaptcha.pdb
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\obj\Debug\netcoreapp3.1\ReCaptcha.csprojAssemblyReference.cache
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\obj\Debug\netcoreapp3.1\ReCaptcha.AssemblyInfoInputs.cache
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\obj\Debug\netcoreapp3.1\ReCaptcha.AssemblyInfo.cs
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\obj\Debug\netcoreapp3.1\ReCaptcha.csproj.CoreCompileInputs.cache
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\obj\Debug\netcoreapp3.1\ReCaptcha.dll
+C:\Users\engin\OneDrive\Masaüstü\reCaptcha V3\ReCaptchaV3\ReCaptcha\obj\Debug\netcoreapp3.1\ReCaptcha.pdb
