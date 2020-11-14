@@ -19,7 +19,6 @@ namespace ReCaptcha.Extensions
             
             services.AddTransient<IRecaptchaVerifier, RecaptchaVerifier>();
             
-            //TODO: create RecaptchaClientConsts?
             //IHttpClientFactory service registration
             services.AddHttpClient("recaptcha", client =>
             {
