@@ -6,7 +6,11 @@ reCAPTCHA V3 for .NET 5.
 
 1. Install the package.
 ```sh
-Install-Package reCAPTCHA-v3
+Install-Package reCaptcha-V3 -Version 1.0.0
+```
+or
+```sh
+dotnet add package reCaptcha-V3 --version 1.0.0
 ```
 
 2. Get your `Site-Key` and `Secret-Key` to use **reCAPTCHA** from [here](https://www.google.com/recaptcha/admin/create).
