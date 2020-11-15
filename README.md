@@ -8,7 +8,8 @@ reCAPTCHA V3 for .NET 5.
 ```sh
 Install-Package reCaptcha-V3 -Version 1.0.0
 ```
-or
+<p align="center"> or </p>
+
 ```sh
 dotnet add package reCaptcha-V3 --version 1.0.0
 ```
