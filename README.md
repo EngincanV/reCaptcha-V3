@@ -64,6 +64,13 @@ services.AddRecaptcha(recaptchaOptions =>
 
 6. After submitting the form and sending a **POST** request to the server, you can simply check the user is allowed to do the action or not.
 ```csharp
+private readonly IRecaptchaVerifier _recaptchaVerifier;
+
+public SampleController(IRecaptchaVerifier recaptchaVerifier)
+{
+  _recaptchaVerifier = recaptchaVerifier;
+}
+
 [HttpPost]
 public async Task<IActionResult> Index(RecaptchaModel model)
 {
