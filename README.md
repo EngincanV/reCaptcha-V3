@@ -1,5 +1,7 @@
 # reCaptcha-V3
 
+[![NuGet](https://img.shields.io/nuget/v/reCaptcha-V3.svg?style=flat-square)](https://www.nuget.org/packages/reCaptcha-V3)
+
 reCAPTCHA V3 for .NET 5.
 
 ## Usage
